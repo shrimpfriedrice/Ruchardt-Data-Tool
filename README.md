@@ -1,9 +1,11 @@
 # ruchardt-data-tool
 Automate data capture for a typical [Rüchardt](https://en.wikipedia.org/wiki/R%C3%BCchardt_experiment#Experiment) setup.
 
+Use [data_analysis.nb](https://github.com/shrimpfriedrice/ruchardt-data-tool/blob/master/data_analysis.nb) for data analysis and [tracker](https://github.com/OpenSourcePhysics/tracker) for data extraction.
+
 The automation workflow makes use of [tracker](https://github.com/OpenSourcePhysics/tracker), Excel, and Mathematica. A video stream or a recorded video of the oscillating ball in the setup is also required for this to work. The workflow was originally used to reduce work and increase accuracy of heat capacity ratio calculations made during physics practical sessions at UCL.
 
-Workflow:  
+Example Workflow:  
 1. Record video/stream video of oscillating ball in the setup. An example recording is provided as [video_example.mp4](https://github.com/shrimpfriedrice/ruchardt-data-tool/blob/master/video_example.mp4).  
 2. Extract the position-versus-time data of the oscillating ball from the video using [tracker](https://github.com/OpenSourcePhysics/tracker). The tracking session for the example recording is provided as [data_extraction.trk](https://github.com/shrimpfriedrice/ruchardt-data-tool/blob/master/data_extraction.trk).  
 3. Export the tracking data. The exported data for the example recording is provided as [data_extraction.xlsx](https://github.com/shrimpfriedrice/ruchardt-data-tool/blob/master/data_extraction.xlsx).  
